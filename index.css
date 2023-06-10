@@ -1,6 +1,3 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
-
 * {
     padding: 0;
     margin: 0;
@@ -24,20 +21,32 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-left: 6rem;
+    height: 100vh;
 }
 
-.logo {
-    width: 300px;
-    padding-left: rem;
-    padding-bottom: 4rem;
-    padding-top: 6rem;
-}
+
 
 main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     color: white;
     padding: 0 9rem;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: left;
+    width: 130%;
+}
+
+.logo {
+    width: 150px;
+    padding-bottom: 1rem;
+}
+
+.all {
+    display: flex;
 }
 
 .img {
@@ -45,39 +54,40 @@ main {
 }
 
 .ilustracao {
-    width: 900px;
+    width: 600px;
 }
 
 .text  {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 500px;
+    height: 400px;
     font-family: 'Open Sans', sans-serif;
     align-self: first baseline;
 }
 
 h1 {
-    font-size: 350%;
-    width: 680px;
+    font-size: 250%;
+    width: 500px;
+    padding-bottom: 2rem;
 }
 
 p {
     line-height: 150%;
-    width: 680px;
-    font-size: x-large;
+    width: 500px;
+    font-size: large;
+    padding-bottom: 2rem;
 }
 
 button {
-    padding: 1.5rem;
-    font-size: x-large;
+    padding: 1rem;
+    font-size: large;
     border-radius: 5rem;
     border-style: none;
-    width: 300px;
+    width: 200px;
     color: hsl(257, 40%, 49%);
     cursor: pointer;
     font-style: none;
-    font
 }
 
 button:hover {
@@ -103,8 +113,8 @@ button:hover {
 }
 
 .face {
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     filter: invert();
 }
 
@@ -113,3 +123,11 @@ button:hover {
     border-color: hsl(300, 69%, 71%);
 }
 
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: x-large;
+}

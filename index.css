@@ -1,0 +1,115 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+}
+
+.logo {
+    width: 300px;
+    padding-left: rem;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 9rem;
+}
+
+.img {
+    padding-right: 5rem;
+}
+
+.ilustracao {
+    width: 900px;
+}
+
+.text  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    font-family: 'Open Sans', sans-serif;
+    align-self: first baseline;
+}
+
+h1 {
+    font-size: 350%;
+    width: 680px;
+}
+
+p {
+    line-height: 150%;
+    width: 680px;
+    font-size: x-large;
+}
+
+button {
+    padding: 1.5rem;
+    font-size: x-large;
+    border-radius: 5rem;
+    border-style: none;
+    width: 300px;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    font-style: none;
+    font
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.icons {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    padding-right: 7rem;
+}
+
+.icon {
+    padding: 0.5rem;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.face {
+    height: 30px;
+    width: 30px;
+    filter: invert();
+}
+
+.icon:hover {
+    transition: 0.3s;
+    border-color: hsl(300, 69%, 71%);
+}
+
